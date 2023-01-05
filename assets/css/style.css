@@ -17,8 +17,9 @@
     background: #FFF;
     border-radius: 10px;
     display: flex;
-    height: auto;
-    padding: 177px 130px 30px 70px;
+    max-height:calc(100% - 30px);
+    padding: 100px 110px 30px 70px;
+    position: relative;
 }
 #form-img {
     color: #FFF;
@@ -33,7 +34,7 @@
 }
 #form h1 {
     color: #000;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 input {
     margin-bottom: 0.5rem;
@@ -67,6 +68,7 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3rem;
 }
 #forgot p {
     margin-right: 0.3rem;
@@ -83,4 +85,25 @@ input {
 }
 #forgot-link a:hover {
     color: #8ee97e;
+}
+#create-account {
+    margin-top: 2rem;
+}
+#text-create span {
+    font-size: 0.8rem;
+}
+#text-create a {
+    text-decoration: none;
+    color: #A1A1A1;
+}
+#text-create a:hover {
+    color: #8ee97e;
+}
+#image-arrow {
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.5rem;
+}
+#link {
+    display: flex;
 }
