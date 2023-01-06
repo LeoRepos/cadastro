@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container {
+    width: 100%;
+    margin: 0 auto;
+}
+#container-main {
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 960px;
+    height: auto;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+.alguma {
+    display: flex;
+    height: 95vh;
+}
+#container-img {
+    flex: 1;
+}
+#container-form {
+    flex: 1;
+}
