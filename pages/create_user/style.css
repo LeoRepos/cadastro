@@ -15,7 +15,6 @@
 #menu {
     width: 3rem;
     height: 80%;
-
 }
 #menu img {
     width: 80%;
@@ -39,6 +38,7 @@
     background-color:rgb(243, 243, 243);
     margin-top: 2rem;
     padding: 1rem;
+    border-radius: 0.5rem;
 }
 #container-img {
     text-align: center;
