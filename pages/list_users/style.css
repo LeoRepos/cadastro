@@ -33,3 +33,23 @@
     border-radius: 0.5rem;
     padding: 0 3rem;
 }
+.table {
+    height: auto;
+}
+thead {
+    text-transform: uppercase;
+    font-weight: bold;
+} 
+thead tr th:last-child {
+    text-align: center;
+}
+tr td img {
+    width: 20px;
+    height: 20px;
+    margin-left: 0.5rem;
+}
+.opcoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
