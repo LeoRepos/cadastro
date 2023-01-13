@@ -18,45 +18,53 @@
                     alt="image left computer"
                 >
             </div>
-            <div id="form">
-                <h1>Member Login</h1>
-                <input 
-                    type="email" 
-                    placeholder="Email" 
-                    required 
-                >
-                <input 
-                    type="password" 
-                    placeholder="Password" 
-                    required
-                >
-                <div id="form-button" >
-                    Login
-                </div>
-                <div id="forgot">
-                    <p>Forgot</p>
-                    <div id="forgot-link">
-                        <a href="">
-                            <span>Usarname / Password?</span>
-                        </a>
+            <form method="post">
+                <div id="form">
+                    <h1>Member Login</h1>
+                    <input 
+                        type="email" 
+                        id="email"
+                        placeholder="Email" 
+                        required 
+                    >
+                    <input 
+                        type="password"
+                        id="password" 
+                        placeholder="Password" 
+                        required
+                    >
+                    <div id="form-button">
+                       <input 
+                            type="button"
+                            value="LOGIN"
+                            onclick="login()"                   
+                       >
+                    </div>
+                    <div id="forgot">
+                        <p>Forgot</p>
+                        <div id="forgot-link">
+                            <a href="">
+                                <span>Usarname / Password?</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="create-account">
+                        <div id="text-create">
+                            <a id="link" 
+                            href="">
+                                <span>create your account</span>
+                                <img 
+                                    id="image-arrow" 
+                                    src="/assets/images/icon _Arrow_Right_Circle_.svg" 
+                                    alt="create account arrow right"
+                                >    
+                            </a>                            
+                        </div>        
                     </div>
                 </div>
-                <div id="create-account">
-                    <div id="text-create">
-                        <a id="link" 
-                           href="">
-                            <span>create your account</span>
-                            <img 
-                                id="image-arrow" 
-                                src="/assets/images/icon _Arrow_Right_Circle_.svg" 
-                                alt="create account arrow right"
-                            >    
-                        </a>                            
-                    </div>        
-                </div>
-            </div>
+            </form>
         </section>
     </section>
-
+<script src="index.js"></script>
 </body>
 </html>

@@ -43,7 +43,10 @@ input {
     background-color: #F1F1F1;
     border: none;
 }
-#form-button {
+#form-button input {
+    border: none;
+}
+#form-button input {
     height: 3rem;
     width: 18rem;
     margin-top: 1.3rem;
@@ -59,7 +62,7 @@ input {
     cursor: pointer;
     transition: all 0.3s ease-out;
 }
-#form-button:hover {
+#form-button input:hover {
     background-color: #000;
 }
 #forgot {
