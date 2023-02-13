@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 import { 
   Rotas 
-} from "../routes/routes";
+} from "../src/routes/routes";
 
 function App() {
 
