@@ -5,7 +5,9 @@
 // * 3° - Ao importar em outro lugar usar Pages.NomeDaTela
 
 import { Login } from "./login";
+import { ListUsers } from "./list_users";
 
 export {
-    Login
+    Login,
+    ListUsers
 }

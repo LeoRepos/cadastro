@@ -1,5 +1,5 @@
-import { ButtonNewUser } from "../ButtonNewUser";
-import { TitleTable } from "../TitleTable";
+import { ButtonNewUser } from "../../pages/users/ButtonNewUser";
+import { TitleTable } from "../../pages/users/TitleTable";
 
 
 export {

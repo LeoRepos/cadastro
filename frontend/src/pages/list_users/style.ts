@@ -1,0 +1,79 @@
+import styled from "styled-components";
+
+export const ListUserContianer = styled.div`
+    background-color: red;
+
+`;
+
+export const Header = styled.div`
+#header {
+    height: 5rem;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(43,158,118,1) 0%, rgba(73,124,157,1) 50%, rgba(0,212,255,1) 100%);
+}
+#menu {
+    width: 3rem;
+    height: 80%;
+}
+#menu img {
+    width: 80%;
+    height: 100%;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+#container-main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(43,158,118,1) 0%, rgba(73,124,157,1) 50%, rgba(0,212,255,1) 100%);
+}
+#container {
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(243, 243, 243);
+    border-radius: 0.5rem;
+    padding: 0 3rem;
+    overflow: hidden;
+}
+.table {
+    height: auto;
+}
+thead {
+    text-transform: uppercase;
+    font-weight: bold;
+} 
+thead tr th:last-child {
+    text-align: center;
+}
+tr td img {
+    width: 20px;
+    height: 20px;
+    margin-left: 0.5rem;
+}
+.opcoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:450px) {
+    #container-main {
+        width: 100vw;
+        flex: none;
+        background-color: transparent;
+    }
+
+    #container {
+        width: 100vw;
+        background-color: transparent;
+        margin-bottom: 15rem;
+    }
+}
+`
