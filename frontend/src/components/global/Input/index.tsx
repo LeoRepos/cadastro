@@ -4,7 +4,7 @@ import {
     useState
 } from "react";
 
-export const input = ({
+export const Input = ({
     id, 
     type,
     placeHolder,
@@ -12,7 +12,7 @@ export const input = ({
     maxLength, 
     width, 
     action 
-}) => {
+}: any) => {
     const [
         value, 
         setValue

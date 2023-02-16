@@ -5,13 +5,12 @@ export const InputContainer = styled.div`
         width: auto;
     }
     background-color: rgba(93, 59, 129, 0.08);
-    height: ${({ type }) => type ? '100%' : 'auto' };
+    height: ${type  => type ? '100%' : 'auto' };
     display: flex;
     align-content: center;
     padding: 0.8rem;
     border-radius: 8px;
-    width: ${({ width }) => width ? width : 'fit-content' };
-    justify-content: ${({ width }) => width ? 'space-between' : 'none' };
+    width: ${ type => type ? 'width' : 'fit-content' };
 `;
 
 export const InputText = styled.input`
